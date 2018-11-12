@@ -60,6 +60,7 @@
      <Compile Include="Assets\crashsounder.cs" />
      <Compile Include="Assets\Dificuldade.cs" />
      <Compile Include="Assets\followRoute.cs" />
+     <Compile Include="Assets\GoogleMaps.cs" />
      <Compile Include="Assets\lapcounter.cs" />
      <Compile Include="Assets\Motor.cs" />
      <Compile Include="Assets\PlayerControls.cs" />

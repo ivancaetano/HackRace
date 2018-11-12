@@ -81,7 +81,7 @@ using Random = UnityEngine.Random;
             source.loop = true;
 
             // start the clip from a random point
-            source.time = Random.Range(0f, clip.length);
+            //source.time = Random.Range(0f, clip.length);
             source.Play();
             source.minDistance = 5;
             source.maxDistance = maxRolloffDistance;
