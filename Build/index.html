@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | RaceCAIXA</title>
+    <title>RaceCAIXA</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
@@ -11,6 +11,27 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
     </script>
+    <style>
+    body {
+      background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=-15.77523577,-47.89970216&zoom=16&key=AIzaSyAkUJqVSbPHmvng9T5-2hK15oShQhL0dKY&size=640x420");
+      background-color: #cccccc;
+    }
+    .site {
+    position: fixed;
+    top: 0px;
+    vertical-align: middle;
+    }
+    .github {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    .browser {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    }
+</style>
   </head>
   <body>
     <div class="webgl-content">
@@ -20,6 +41,17 @@
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
         <div class="title">RaceCAIXA</div>
       </div>
+    </div>
+    <div class="site" >
+      <h1>Também disponível em <a href="http://www.cegov.df.caixa\hack">http://www.cegov.df.caixa\hack</a></h1>
+    </div>
+    <div class="github" >
+      <a href="https://github.com/ivancaetano/HackRace" target="_blank"><img src="github.png" width="320" height="160" title="Github" alt="Github"></a>
+     
+    </div>
+    <div class="browser">
+      <img src="chrome.jpg" width="86" height="86" >
+      <img src="firefox.png" width="86" height="86" >
     </div>
   </body>
 </html>
