@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/c113236/Downloads/superCar/superCar/Build
+C:/DADOS/PROJETOS/HackRace/Build
 SceneListBegin?
 Assets/track1.unity
 SceneListEnd?
@@ -27,6 +27,7 @@ ee43a65bf7d5f8d4b9d1af3de1d49827 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 b14b4630cc47b6e9ea8a644551a6a8cc Unity.TextMeshPro.dll:TMPro.TMP_Text
 ea1e4d6c21b0413292416f65fe4587aa Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.SkidTrail
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Wheel
+95ca2af983fb0348c09b25b65222ac83 Assembly-CSharp.dll:.GoogleMaps
 1480661bc100f1162e9402d030004646 Assembly-CSharp.dll:.text
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -328,4 +329,3 @@ aa5e3523afd7fd907d3f99da4b777fdc Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-95ca2af983fb0348c09b25b65222ac83 Assembly-CSharp.dll:.GoogleMaps
